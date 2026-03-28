@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio com imagem</title>
+</head>
+<body>
+    <h1>Desafio com imagem para ampliação (imagem dinâmica)</h1>
+    <p>Amplie a imagem para ter uma visão mais ampla da foto.</p>
+    <picture>
+        <source media="(min-width: 1250px)" srcset="img2/paisagem-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="img2/paisagem-m.png" type="image/png">
+        <img src="img2/paisagem-p.png" alt="imagem dinâmica">
+    </picture>
+</body>
+</html>

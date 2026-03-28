@@ -1,0 +1,50 @@
+#charset "UTF-8";
+
+/*
+    PALETA DE CORES
+    MARROM ESCURO    #8C503A
+    MARROM CLARO    #BF6415
+    FUNDO CLARO    #D9CCC1
+    AZUL CLARO    #024059
+    AZUL ESCURO    #023E73
+*/
+
+*{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* ou 1em */
+    font-weight: normal;
+}
+body{
+    background-image: linear-gradient(to bottom, #8C503A, #BF6415);
+}
+main{
+    background-color: #D9CCC1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #4b2a1efa;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px #29160fb2;
+    background-color: #643929bd;
+}
+h2, h3{
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    color: #024059;
+    text-shadow: 1px 0px 2px #6439299c;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #023E73;
+    background-color: rgba(0, 0, 0, 0.212);
+    text-align: left;
+}

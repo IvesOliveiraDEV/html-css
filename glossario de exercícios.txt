@@ -1,0 +1,26 @@
+aplicativos auxiliares para criação de sites
+GIMP - para imagens
+HandBrake - para vídeos
+
+
+1  - Hello World (Olá mundo)
+2  - Parágrafos e quebras de linha
+3  - Testando carga e imagens
+4  - Favicon (ícone favorito)
+5  - Hierarquia de títulos
+6  - semântica em HTML
+7  - formatações de textos
+8  - Códigos e citações
+9  - listas em HTML
+10 - links externos e internos
+11 - imagens dinâmicas, áudios em HTML
+12 - vídeos em HTML
+13 - CSS inline
+14 - Estilos Locais
+15 - Estilos Externos
+16 - Gradiente
+17 - Trabalhando com fontes
+18 - Fontes importadas
+19 - Seletores personalizados
+20 - Pseudo-classes
+21 - 

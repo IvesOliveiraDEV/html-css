@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font-family: Playfair Display*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font-family*/
+:root {
+    --cor1: #D4C2AD; 
+    --cor2: #D7A184; 
+    --cor3: #EFDFCC; 
+    --cor4: #BA8E7A; 
+    --cor5: #66796B;
+    --fonte1: 'Playfair Display', serif;
+    --fonte2: 'Montserrat', Helvetica, sans-serif;
+
+    /*CORES ALTERNATIVAS*/
+    --color1: #FAF4E3;
+    --color2: #A5A68F;
+    --color3: #D9B2A9;
+    --color4: #F2DBD5;
+    --color5: #F4EEED;
+} 
+
+/*
+FONTES PARA O SITE
+Hierarquia: Use Playfair Display para títulos e Montserrat para textos.
+
+Contraste: Preto (#000000) ou tons escuros sobre fundo branco/bege.
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* ou 1em */
+    font-weight: normal;
+    max-width: 800px;
+    min-width: 280px;
+
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    margin-top: -12px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.219);
+}
+
+header h1{
+    font-family: var(--fonte1);
+    font-size: large;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.61);
+    padding-bottom: 20px;
+
+    margin-bottom: -20px;
+}
+
+header p.contratipos {
+    text-decoration: dashed;
+}
+
+header p{
+    font-family: var(--fonte2);
+    font-size: 1.1em;
+    text-align: center;
+}
+
+header li {
+    font-size: 15px;
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+
+nav {
+   
+    background-color: var(--cor5);
+    margin-top: -16px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav > a {
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+    color: white;
+    text-decoration: solid;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    font-size: 19px;
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border-radius: 5px;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.281);
+    
+    
+}
+
+body{
+    background-color: var(--cor3);
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #00000048;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 247, 242);
+}
+header.cabecalho {
+    background-color: rgb(236, 200, 169);
+    width: 500px;
+    margin: auto;
+    padding: 1px 10px;
+    box-shadow: 3px 3px 5px black;
+}

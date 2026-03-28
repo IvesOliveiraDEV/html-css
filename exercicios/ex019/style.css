@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* POR ALGUM MOTIVO ESSA LINHA É OBRIGATÓRIA PORQUE NÃO ESTÁ MOSTRANDO ALGUMAS CONFIGURAÇÕES FEITAS AQUI.*/
+   /*
+em HTML é id = em CSS é # (só pode 1 elemento)
+em HTML é class = em CSS é .(pode vários elementos)
+*/ 
+
+
+body{
+    background-color: #d1f3d8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #3DA854;
+}
+h1#principal/* seletor personalizado podendo ou não ter a tag de definição específica */ {
+    text-align: center;
+    background-color: #49CA65;
+    color: white;
+}
+
+h2{
+    color: #308643;
+}
+
+.basico{
+    color: #3E8F4B;
+}
+
+.intermediario{ 
+    color: #8f8e3e;
+}
+
+.avancado {
+    color: #8f3e3e;
+}
+.destaque {
+    background-color: #d4d404;
+}
